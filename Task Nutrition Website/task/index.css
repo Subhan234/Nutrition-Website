@@ -1,0 +1,195 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #444;
+}
+
+/* Header and Navbar */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 15px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #888;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 15px;
+    position: relative;
+}
+
+.navbar a:hover {
+    color: #444;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #e4ebe8;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.hero-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image-container img {
+    max-width: 500px;
+    width: 100%;
+}
+
+.logo-text-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text-container img {
+    max-width: 300px;
+    width: 100%;
+}
+
+/* About, Specialties, and Contact Sections */
+.about-section,
+.specialties-section,
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section {
+    background-color: #e4ebe8;
+}
+
+.specialties-section {
+    background-color: #f7f7f7;
+}
+
+.contact-section {
+    background-color: #e4ebe8;
+}
+
+.section-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.section-subtitle {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* About Section Specifics */
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.about-text-container {
+    flex: 1;
+    text-align: left;
+    max-width: 400px;
+    padding-right: 20px;
+}
+
+.about-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image {
+    max-width: 300px;
+}
+
+/* Specialties Section Specifics */
+.specialties-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.specialties-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.specialties-image {
+    max-width: 300px;
+}
+
+.specialties-list-container {
+    flex: 1;
+    text-align: left;
+    max-width: 400px;
+    padding-left: 20px;
+}
+
+.specialties-list {
+    list-style: none;
+    padding: 0;
+}
+
+.specialties-list li {
+    margin-bottom: 10px;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+/* Contact Section Specifics */
+.contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-details {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: #4caf50;
+}
+
+.contact-link,
+.contact-text {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1em;
+}
